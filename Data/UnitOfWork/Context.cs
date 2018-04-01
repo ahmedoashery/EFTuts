@@ -1,8 +1,4 @@
-using Queries.Core.Domain;
-using Queries.Persistence.EntityConfigurations;
-using System.Data.Entity;
-
-namespace EFTuts.UnitOfWork
+namespace EFTuts.Data.UnitOfWork
 {
     public class Context : DbContext
     {

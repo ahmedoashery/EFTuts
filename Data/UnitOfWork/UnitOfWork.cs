@@ -1,8 +1,6 @@
-﻿using Queries.Core;
-using Queries.Core.Repositories;
-using Queries.Persistence.Repositories;
+﻿
 
-namespace EFTuts.UnitOfWork
+namespace EFTuts.Data.UnitOfWork
 {
     public class UnitOfWork : IUnitOfWork
     {

@@ -1,11 +1,10 @@
-﻿using Queries.Core.Repositories;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Expressions;
 
-namespace EFTuts.UnitOfWork
+namespace EFTuts.Data.UnitOfWork
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {

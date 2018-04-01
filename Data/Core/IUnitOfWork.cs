@@ -1,4 +1,3 @@
-using Queries.Core.Repositories;
 using System;
 
 namespace EFTuts.Core
