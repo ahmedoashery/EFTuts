@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Media.Animation;
 using System.Windows.Threading;
 
-namespace Shell.Views.splashscreens
+namespace Shell.Views.Splashscreens
 {
     /// <summary>
     /// Interaction logic for SplashWindow.xaml

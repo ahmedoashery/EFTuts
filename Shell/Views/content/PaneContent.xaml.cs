@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace Shell.Views.content
+namespace Shell.Views.Content
 {
     /// <summary>
     /// Interaction logic for PaneContent

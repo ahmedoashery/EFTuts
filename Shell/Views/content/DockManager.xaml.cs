@@ -3,7 +3,7 @@ using System;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace Shell.Views.content
+namespace Shell.Views.Content
 {
     /// <summary>
     /// Interaction logic for WindowsManager
@@ -18,7 +18,7 @@ namespace Shell.Views.content
             DockPane pane = new DockPane
             {
                 MinHeight = 200,
-                MinWidth = 200,
+                MinWidth = 5,
                 Header = "Solution Explorer"
             };
 

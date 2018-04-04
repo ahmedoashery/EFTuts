@@ -62,6 +62,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users", "Modules\Users\User
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Shell\Shell.csproj", "{BAD09508-ED50-4DDB-B25D-671FFC9C24F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModernUI", "ModernUI", "{833810C9-E188-49A8-823E-51EB7B214150}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\FirstFloor.ModernUI.dll = ..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\FirstFloor.ModernUI.dll
+		..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\FirstFloor.ModernUI.pdb = ..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\FirstFloor.ModernUI.pdb
+		..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\Microsoft.Windows.Shell.dll = ..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\Microsoft.Windows.Shell.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -191,6 +198,7 @@ Global
 		{76BAD986-E969-4B89-82CF-0B3432AD7ACE} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
 		{A2CE5CED-FE1A-4813-9D64-31334275A2F5} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
 		{BAD09508-ED50-4DDB-B25D-671FFC9C24F5} = {79A62DC0-CF38-4BAD-B8EA-883F67CA207F}
+		{833810C9-E188-49A8-823E-51EB7B214150} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E9FD721-C36B-42DF-8E7A-4D6F1915E11C}

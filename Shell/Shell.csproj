@@ -44,6 +44,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
+    <NoWarn>NU1602</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -56,6 +57,24 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ControlzEx">
+      <HintPath>..\Libraries\ModernChrome\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\Libraries\ModernChrome\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\MaterialDesign\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.4.0.1044, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\MaterialDesign\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Windows.Shell, Version=3.5.41019.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\ModernUI\Microsoft.Windows.Shell.dll</HintPath>
+    </Reference>
     <Reference Include="MixModes.Synergy.Resources">
       <HintPath>..\Libraries\Synergy\MixModes.Synergy.Resources.dll</HintPath>
     </Reference>
@@ -67,6 +86,9 @@
     </Reference>
     <Reference Include="MixModes.Synergy.VisualFramework">
       <HintPath>..\Libraries\Synergy\MixModes.Synergy.VisualFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="ModernChrome">
+      <HintPath>..\Libraries\ModernChrome\ModernChrome.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -90,23 +112,38 @@
     </ApplicationDefinition>
     <Compile Include="Helpers\ISplashApplication.cs" />
     <Compile Include="Helpers\SplashModuleLoader.cs" />
+    <Compile Include="ViewModels\FooterViewModel.cs" />
+    <Compile Include="ViewModels\RegionsViewModel.cs" />
     <Compile Include="ViewModels\SplashWindowViewModel.cs" />
-    <Compile Include="Views\splashscreens\SplashWindow.xaml.cs">
+    <Compile Include="Views\Footer\Footer.xaml.cs">
+      <DependentUpon>Footer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Header\Toolbar.xaml.cs">
+      <DependentUpon>Toolbar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Splashscreens\SplashWindow.xaml.cs">
       <DependentUpon>SplashWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="Views\content\DockManager.xaml">
+    <Page Include="Views\Content\DockManager.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\content\PaneContent.xaml">
+    <Page Include="Views\Content\PaneContent.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\footer\StatusBar.xaml">
+    <Page Include="Views\Footer\Footer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\header\TopMenu.xaml">
+    <Page Include="Views\Header\Toolbar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Header\TopMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -124,23 +161,16 @@
     <Compile Include="ViewModels\PaneContentViewModel.cs" />
     <Compile Include="ViewModels\StatusBarViewModel.cs" />
     <Compile Include="ViewModels\DockManagerViewModel.cs" />
-    <Compile Include="Views\content\DockManager.xaml.cs">
+    <Compile Include="Views\Content\DockManager.xaml.cs">
       <DependentUpon>DockManager.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\content\PaneContent.xaml.cs">
+    <Compile Include="Views\Content\PaneContent.xaml.cs">
       <DependentUpon>PaneContent.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\footer\StatusBar.xaml.cs">
-      <DependentUpon>StatusBar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\header\TopMenu.xaml.cs">
+    <Compile Include="Views\Header\TopMenu.xaml.cs">
       <DependentUpon>TopMenu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Page Include="Views\splashscreens\SplashWindow.xaml">
+    <Page Include="Views\Splashscreens\SplashWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -182,6 +212,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\images\Splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Styles\" />
+    <Folder Include="Resources\Themes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
