@@ -3,7 +3,7 @@ using System;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace Shell.Views.Content
+namespace EFTuts.Shell.MyApp.Views.Content
 {
     /// <summary>
     /// Interaction logic for WindowsManager

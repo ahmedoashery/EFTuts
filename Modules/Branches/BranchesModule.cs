@@ -4,7 +4,7 @@ using Prism.Regions;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Branches
+namespace EFTuts.Modules.Branches
 {
     public class BranchesModule : IModule
     {

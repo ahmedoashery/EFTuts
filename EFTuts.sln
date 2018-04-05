@@ -5,32 +5,30 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D9A51349-2FC2-40AF-8D4D-D94517B17E63}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{51E9737B-4CC8-4AD7-BBD4-ED47A806C079}"
-	ProjectSection(SolutionItems) = preProject
-		Data\Core\IRepository.cs = Data\Core\IRepository.cs
-		Data\Core\IUnitOfWork.cs = Data\Core\IUnitOfWork.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{EEC69ECE-2C31-4191-9C8A-3442C6AC6297}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{949F2E63-93AC-494E-8873-7FD6A180F6B5}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitOfWork", "UnitOfWork", "{277C7FEE-ACE1-474D-B3CE-88630DE33317}"
-	ProjectSection(SolutionItems) = preProject
-		Data\UnitOfWork\Context.cs = Data\UnitOfWork\Context.cs
-		Data\UnitOfWork\Repository.cs = Data\UnitOfWork\Repository.cs
-		Data\UnitOfWork\UnitOfWork.cs = Data\UnitOfWork\UnitOfWork.cs
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CFAA390F-1132-4221-AE8A-43C34E230816}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism", "Prism", "{84B42A53-54B3-4E8F-B113-33C5AD6DEE45}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synergy", "Synergy", "{BA42DD71-2336-4F79-BECA-0F66640D7403}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\Synergy\MixModes.Synergy.Resources.dll = Libraries\Synergy\MixModes.Synergy.Resources.dll
+		Libraries\Synergy\MixModes.Synergy.Themes.dll = Libraries\Synergy\MixModes.Synergy.Themes.dll
+		Libraries\Synergy\MixModes.Synergy.Utilities.dll = Libraries\Synergy\MixModes.Synergy.Utilities.dll
+		Libraries\Synergy\MixModes.Synergy.VisualFramework.dll = Libraries\Synergy\MixModes.Synergy.VisualFramework.dll
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net452", "net452", "{15FF9F83-D2E4-42B8-9BF2-D0C19455D73B}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\Prism\Net452\Microsoft.Practices.ServiceLocation.dll = Libraries\Prism\Net452\Microsoft.Practices.ServiceLocation.dll
+		Libraries\Prism\Net452\Microsoft.Practices.Unity.Configuration.dll = Libraries\Prism\Net452\Microsoft.Practices.Unity.Configuration.dll
+		Libraries\Prism\Net452\Microsoft.Practices.Unity.dll = Libraries\Prism\Net452\Microsoft.Practices.Unity.dll
+		Libraries\Prism\Net452\Microsoft.Practices.Unity.RegistrationByConvention.dll = Libraries\Prism\Net452\Microsoft.Practices.Unity.RegistrationByConvention.dll
+		Libraries\Prism\Net452\Prism.dll = Libraries\Prism\Net452\Prism.dll
+		Libraries\Prism\Net452\Prism.Unity.Windows.dll = Libraries\Prism\Net452\Prism.Unity.Windows.dll
+		Libraries\Prism\Net452\Prism.Unity.Wpf.dll = Libraries\Prism\Net452\Prism.Unity.Wpf.dll
+		Libraries\Prism\Net452\Prism.Wpf.dll = Libraries\Prism\Net452\Prism.Wpf.dll
+		Libraries\Prism\Net452\System.Windows.Interactivity.dll = Libraries\Prism\Net452\System.Windows.Interactivity.dll
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shell", "Shell", "{79A62DC0-CF38-4BAD-B8EA-883F67CA207F}"
 EndProject
@@ -60,7 +58,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suppliers", "Modules\Suppli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Users", "Modules\Users\Users.csproj", "{A2CE5CED-FE1A-4813-9D64-31334275A2F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Shell\Shell.csproj", "{BAD09508-ED50-4DDB-B25D-671FFC9C24F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "Shell\MyApp.csproj", "{BAD09508-ED50-4DDB-B25D-671FFC9C24F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModernUI", "ModernUI", "{833810C9-E188-49A8-823E-51EB7B214150}"
 	ProjectSection(SolutionItems) = preProject
@@ -68,6 +66,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModernUI", "ModernUI", "{83
 		..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\FirstFloor.ModernUI.pdb = ..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\FirstFloor.ModernUI.pdb
 		..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\Microsoft.Windows.Shell.dll = ..\..\..\Downloads\mui-master\mui-master\1.0\FirstFloor.ModernUI\FirstFloor.ModernUI.App\bin\Debug\Microsoft.Windows.Shell.dll
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntityFramework", "EntityFramework", "{28EDCEDE-D91E-463C-8B94-B0C06DBC00E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v6.2", "v6.2", "{FAB0C813-5B71-4D1A-96C6-958A3562CC33}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\EntityFramework\v6.2\EntityFramework.dll = Libraries\EntityFramework\v6.2\EntityFramework.dll
+		Libraries\EntityFramework\v6.2\EntityFramework.SqlServer.dll = Libraries\EntityFramework\v6.2\EntityFramework.SqlServer.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft", "Microsoft", "{7D9942B6-1330-4376-B0BD-8866557FE112}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\Microsoft\Microsoft.Practices.ServiceLocation.dll = Libraries\Microsoft\Microsoft.Practices.ServiceLocation.dll
+		Libraries\Microsoft\Microsoft.Practices.Unity.Configuration.dll = Libraries\Microsoft\Microsoft.Practices.Unity.Configuration.dll
+		Libraries\Microsoft\Microsoft.Practices.Unity.dll = Libraries\Microsoft\Microsoft.Practices.Unity.dll
+		Libraries\Microsoft\Microsoft.Practices.Unity.RegistrationByConvention.dll = Libraries\Microsoft\Microsoft.Practices.Unity.RegistrationByConvention.dll
+		Libraries\Microsoft\System.Windows.Interactivity.dll = Libraries\Microsoft\System.Windows.Interactivity.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "Tests\App\App.csproj", "{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Data\Repository\Repository.csproj", "{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,16 +192,27 @@ Global
 		{BAD09508-ED50-4DDB-B25D-671FFC9C24F5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAD09508-ED50-4DDB-B25D-671FFC9C24F5}.Release|x86.ActiveCfg = Release|x86
 		{BAD09508-ED50-4DDB-B25D-671FFC9C24F5}.Release|x86.Build.0 = Release|x86
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Debug|x86.Build.0 = Debug|Any CPU
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Release|x86.ActiveCfg = Release|Any CPU
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}.Release|x86.Build.0 = Release|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Debug|x86.Build.0 = Debug|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Release|x86.ActiveCfg = Release|Any CPU
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{51E9737B-4CC8-4AD7-BBD4-ED47A806C079} = {D9A51349-2FC2-40AF-8D4D-D94517B17E63}
-		{EEC69ECE-2C31-4191-9C8A-3442C6AC6297} = {D9A51349-2FC2-40AF-8D4D-D94517B17E63}
-		{949F2E63-93AC-494E-8873-7FD6A180F6B5} = {D9A51349-2FC2-40AF-8D4D-D94517B17E63}
-		{277C7FEE-ACE1-474D-B3CE-88630DE33317} = {D9A51349-2FC2-40AF-8D4D-D94517B17E63}
-		{CFAA390F-1132-4221-AE8A-43C34E230816} = {D9A51349-2FC2-40AF-8D4D-D94517B17E63}
 		{84B42A53-54B3-4E8F-B113-33C5AD6DEE45} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
 		{BA42DD71-2336-4F79-BECA-0F66640D7403} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
 		{15FF9F83-D2E4-42B8-9BF2-D0C19455D73B} = {84B42A53-54B3-4E8F-B113-33C5AD6DEE45}
@@ -199,6 +229,11 @@ Global
 		{A2CE5CED-FE1A-4813-9D64-31334275A2F5} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
 		{BAD09508-ED50-4DDB-B25D-671FFC9C24F5} = {79A62DC0-CF38-4BAD-B8EA-883F67CA207F}
 		{833810C9-E188-49A8-823E-51EB7B214150} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
+		{28EDCEDE-D91E-463C-8B94-B0C06DBC00E2} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
+		{FAB0C813-5B71-4D1A-96C6-958A3562CC33} = {28EDCEDE-D91E-463C-8B94-B0C06DBC00E2}
+		{7D9942B6-1330-4376-B0BD-8866557FE112} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
+		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA} = {897A4E72-67DF-494C-B684-195581B33B06}
+		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E} = {D9A51349-2FC2-40AF-8D4D-D94517B17E63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E9FD721-C36B-42DF-8E7A-4D6F1915E11C}

@@ -7,7 +7,7 @@
     <ProjectGuid>{401789BA-74E1-4771-B74C-B98041214EDB}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Branches</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Branches</RootNamespace>
     <AssemblyName>Branches</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

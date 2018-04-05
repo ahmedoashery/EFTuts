@@ -1,7 +1,6 @@
-﻿using EFTuts.Shell;
-using System.Windows;
+﻿using System.Windows;
 
-namespace Shell
+namespace EFTuts.Shell.MyApp
 {
     /// <summary>
     /// Interaction logic for App.xaml

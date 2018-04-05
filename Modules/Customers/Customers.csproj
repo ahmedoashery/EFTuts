@@ -7,7 +7,7 @@
     <ProjectGuid>{231BDFBE-E265-49B4-8887-E7750CFC1831}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Customers</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Customers</RootNamespace>
     <AssemblyName>Customers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

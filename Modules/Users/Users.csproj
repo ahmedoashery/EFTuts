@@ -7,7 +7,7 @@
     <ProjectGuid>{A2CE5CED-FE1A-4813-9D64-31334275A2F5}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Users</RootNamespace>
+    <RootNamespace>EFTuts.Moduls.Users</RootNamespace>
     <AssemblyName>Users</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

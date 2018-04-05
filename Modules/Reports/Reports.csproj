@@ -7,7 +7,7 @@
     <ProjectGuid>{41048E5D-3A41-4842-AB6E-CB10025D2D63}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Reports</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Reports</RootNamespace>
     <AssemblyName>Reports</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

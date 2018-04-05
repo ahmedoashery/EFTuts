@@ -5,7 +5,7 @@ using System;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Reports
+namespace EFTuts.Modules.Reports
 {
     public class ReportsModule : IModule
     {

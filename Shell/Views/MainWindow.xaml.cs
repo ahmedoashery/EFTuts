@@ -1,7 +1,7 @@
 ﻿using ModernChrome;
 using Prism.Regions;
 
-namespace Shell.Views
+namespace EFTuts.Shell.MyApp.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

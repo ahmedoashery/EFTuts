@@ -7,7 +7,7 @@
     <ProjectGuid>{A4A08976-3E7A-4BAC-A940-D76A4D3023DF}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Orders</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Orders</RootNamespace>
     <AssemblyName>Orders</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Shell.ViewModels
+namespace EFTuts.Shell.MyApp
 {
 	public class RegionsViewModel : BindableBase
 	{

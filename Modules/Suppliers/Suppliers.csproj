@@ -7,7 +7,7 @@
     <ProjectGuid>{76BAD986-E969-4B89-82CF-0B3432AD7ACE}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Suppliers</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Suppliers</RootNamespace>
     <AssemblyName>Suppliers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

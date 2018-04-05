@@ -7,7 +7,7 @@
     <ProjectGuid>{F94E0038-730E-4626-8783-4E93CCD086A4}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sales</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Sales</RootNamespace>
     <AssemblyName>Sales</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

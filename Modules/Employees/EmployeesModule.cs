@@ -5,7 +5,7 @@ using System;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Employees
+namespace EFTuts.Modules.Employees
 {
     public class EmployeesModule : IModule
     {

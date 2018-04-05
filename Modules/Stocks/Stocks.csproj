@@ -7,7 +7,7 @@
     <ProjectGuid>{37E57D2B-85D1-4BF8-80C3-8DCF0078963B}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Stocks</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Stocks</RootNamespace>
     <AssemblyName>Stocks</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

@@ -5,7 +5,7 @@ using System;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Customers
+namespace EFTuts.Modules.Customers
 {
     public class CustomersModule : IModule
     {

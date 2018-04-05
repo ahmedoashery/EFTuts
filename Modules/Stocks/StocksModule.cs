@@ -5,7 +5,7 @@ using System;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Stocks
+namespace EFTuts.Modules.Stocks
 {
     public class StocksModule : IModule
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace Shell.Views.Footer
+namespace EFTuts.Shell.MyApp.Views.Footer
 {
     /// <summary>
     /// Interaction logic for Footer

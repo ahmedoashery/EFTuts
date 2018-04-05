@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace Shell.Views.Header
+namespace EFTuts.Shell.MyApp.Views.Header
 {
     /// <summary>
     /// Interaction logic for MainMenu

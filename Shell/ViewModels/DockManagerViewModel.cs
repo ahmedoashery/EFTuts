@@ -1,10 +1,6 @@
-﻿using Prism.Commands;
-using Prism.Mvvm;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Prism.Mvvm;
 
-namespace Shell.ViewModels
+namespace EFTuts.Shell.MyApp
 {
     public class DockManagerViewModel : BindableBase
     {

@@ -7,7 +7,7 @@
     <ProjectGuid>{C3ED26F5-9752-4E11-A457-890C88F4E8DF}</ProjectGuid>
     <OutputType>library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Company</RootNamespace>
+    <RootNamespace>EFTuts.Modules.Company</RootNamespace>
     <AssemblyName>Company</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

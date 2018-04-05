@@ -5,7 +5,7 @@ using System;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Orders
+namespace EFTuts.Modules.Orders
 {
     public class OrdersModule : IModule
     {

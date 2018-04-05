@@ -2,9 +2,9 @@
 using Prism.Modularity;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
-using Shell.Views;
+using EFTuts.Shell.MyApp.Views;
 
-namespace EFTuts.Shell
+namespace EFTuts.Shell.MyApp
 {
     class Bootstrapper : UnityBootstrapper
     {

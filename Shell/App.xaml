@@ -1,4 +1,4 @@
-﻿<Application x:Class="Shell.App"
+﻿<Application x:Class="EFTuts.Shell.MyApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Application.Resources>

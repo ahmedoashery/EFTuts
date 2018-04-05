@@ -5,7 +5,7 @@ using System;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Company
+namespace EFTuts.Modules.Company
 {
     public class CompanyModule : IModule
     {

@@ -1,6 +1,6 @@
 ﻿using Prism.Mvvm;
 
-namespace Shell.ViewModels
+namespace EFTuts.Shell.MyApp
 {
     public class MainMenuViewModel : BindableBase
     {

@@ -4,7 +4,7 @@ using Prism.Regions;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 
-namespace Users
+namespace EFTuts.Modules.Users
 {
     public class UsersModule : IModule
     {
