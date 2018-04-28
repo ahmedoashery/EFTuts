@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EFTuts.Modules.Customers.Properties {
+namespace Customers.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

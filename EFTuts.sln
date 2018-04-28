@@ -40,8 +40,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branches", "Modules\Branche
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company", "Modules\Company\Company.csproj", "{C3ED26F5-9752-4E11-A457-890C88F4E8DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers", "Modules\Customers\Customers.csproj", "{231BDFBE-E265-49B4-8887-E7750CFC1831}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Modules\Employees\Employees.csproj", "{96B9DB32-1279-4346-92DD-EEAC1B594A2A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orders", "Modules\Orders\Orders.csproj", "{A4A08976-3E7A-4BAC-A940-D76A4D3023DF}"
@@ -81,12 +79,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft", "Microsoft", "{
 		Libraries\Microsoft\Microsoft.Practices.Unity.Configuration.dll = Libraries\Microsoft\Microsoft.Practices.Unity.Configuration.dll
 		Libraries\Microsoft\Microsoft.Practices.Unity.dll = Libraries\Microsoft\Microsoft.Practices.Unity.dll
 		Libraries\Microsoft\Microsoft.Practices.Unity.RegistrationByConvention.dll = Libraries\Microsoft\Microsoft.Practices.Unity.RegistrationByConvention.dll
+		..\..\..\Downloads\CodeProject.OutlookNavi\CodeProject.OutlookNavi\CodeProject.OutlookNavi\PresentationFramework.Classic.dll = ..\..\..\Downloads\CodeProject.OutlookNavi\CodeProject.OutlookNavi\CodeProject.OutlookNavi\PresentationFramework.Classic.dll
 		Libraries\Microsoft\System.Windows.Interactivity.dll = Libraries\Microsoft\System.Windows.Interactivity.dll
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "Tests\App\App.csproj", "{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Data\Repository\Repository.csproj", "{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products", "Modules\Products\Products.csproj", "{276E4570-01BF-4436-88FA-30E46966DA93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers", "Modules\Customers\Customers.csproj", "{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FabTabControl", "FabTabControl", "{5A2A57EC-416B-4DB9-B03E-1F967048EB6B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\fabtab\sourceCode\sourceCode\bin\FabTab.dll = ..\..\..\Downloads\fabtab\sourceCode\sourceCode\bin\FabTab.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModernChrome", "ModernChrome", "{38DBE5DB-6B58-411C-AA67-5F8409704EF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net45", "Net45", "{2EFDC2E6-F315-4C18-930C-56A053D36DBB}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\ModernChrome\Net45\ControlzEx.dll = Libraries\ModernChrome\Net45\ControlzEx.dll
+		Libraries\ModernChrome\Net45\MahApps.Metro.dll = Libraries\ModernChrome\Net45\MahApps.Metro.dll
+		Libraries\ModernChrome\Net45\ModernChrome.dll = Libraries\ModernChrome\Net45\ModernChrome.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{881FE7A9-AC48-4630-A66A-2E4A538CB601}"
+	ProjectSection(SolutionItems) = preProject
+		ContentToMarginConverter.cs = ContentToMarginConverter.cs
+		ContentToPathConverter.cs = ContentToPathConverter.cs
+		TabControlTemplate.cs = TabControlTemplate.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChromeTab", "ChromeTab", "{BFA58489-FAA7-4B05-9167-6E3E55ECCE4F}"
+	ProjectSection(SolutionItems) = preProject
+		Libraries\ChromeTab\ChromeTabs.dll = Libraries\ChromeTab\ChromeTabs.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -112,14 +141,6 @@ Global
 		{C3ED26F5-9752-4E11-A457-890C88F4E8DF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C3ED26F5-9752-4E11-A457-890C88F4E8DF}.Release|x86.ActiveCfg = Release|x86
 		{C3ED26F5-9752-4E11-A457-890C88F4E8DF}.Release|x86.Build.0 = Release|x86
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Debug|x86.ActiveCfg = Debug|x86
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Debug|x86.Build.0 = Debug|x86
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Release|Any CPU.Build.0 = Release|Any CPU
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Release|x86.ActiveCfg = Release|x86
-		{231BDFBE-E265-49B4-8887-E7750CFC1831}.Release|x86.Build.0 = Release|x86
 		{96B9DB32-1279-4346-92DD-EEAC1B594A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{96B9DB32-1279-4346-92DD-EEAC1B594A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B9DB32-1279-4346-92DD-EEAC1B594A2A}.Debug|x86.ActiveCfg = Debug|x86
@@ -208,6 +229,22 @@ Global
 		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Release|x86.ActiveCfg = Release|Any CPU
 		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E}.Release|x86.Build.0 = Release|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Debug|x86.Build.0 = Debug|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Release|x86.ActiveCfg = Release|Any CPU
+		{276E4570-01BF-4436-88FA-30E46966DA93}.Release|x86.Build.0 = Release|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Debug|x86.Build.0 = Debug|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Release|x86.ActiveCfg = Release|Any CPU
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,7 +255,6 @@ Global
 		{15FF9F83-D2E4-42B8-9BF2-D0C19455D73B} = {84B42A53-54B3-4E8F-B113-33C5AD6DEE45}
 		{401789BA-74E1-4771-B74C-B98041214EDB} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
 		{C3ED26F5-9752-4E11-A457-890C88F4E8DF} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
-		{231BDFBE-E265-49B4-8887-E7750CFC1831} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
 		{96B9DB32-1279-4346-92DD-EEAC1B594A2A} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
 		{A4A08976-3E7A-4BAC-A940-D76A4D3023DF} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
 		{88E1FD77-3516-4792-8B65-37AE69604B73} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
@@ -234,6 +270,12 @@ Global
 		{7D9942B6-1330-4376-B0BD-8866557FE112} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
 		{F5C153C7-9FD8-49E6-94E6-F72D46FFFAAA} = {897A4E72-67DF-494C-B684-195581B33B06}
 		{29A6DFC8-6D7E-43B6-A29A-4C270236D41E} = {D9A51349-2FC2-40AF-8D4D-D94517B17E63}
+		{276E4570-01BF-4436-88FA-30E46966DA93} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
+		{4FCE2371-F120-4F5D-9EAA-FDB1928F142A} = {450FFACB-2268-4B3A-9C74-74C88B7C0D01}
+		{5A2A57EC-416B-4DB9-B03E-1F967048EB6B} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
+		{38DBE5DB-6B58-411C-AA67-5F8409704EF5} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
+		{2EFDC2E6-F315-4C18-930C-56A053D36DBB} = {38DBE5DB-6B58-411C-AA67-5F8409704EF5}
+		{BFA58489-FAA7-4B05-9167-6E3E55ECCE4F} = {E6EC03E6-BBB8-461E-AE2F-773A3A2D4886}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8E9FD721-C36B-42DF-8E7A-4D6F1915E11C}

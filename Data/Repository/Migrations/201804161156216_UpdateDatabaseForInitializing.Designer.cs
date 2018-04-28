@@ -7,13 +7,13 @@ namespace EFTuts.Data.Repository.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class initialize_database : IMigrationMetadata
+    public sealed partial class UpdateDatabaseForInitializing : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(initialize_database));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(UpdateDatabaseForInitializing));
         
         string IMigrationMetadata.Id
         {
-            get { return "201804051228262_initialize_database"; }
+            get { return "201804161156216_UpdateDatabaseForInitializing"; }
         }
         
         string IMigrationMetadata.Source

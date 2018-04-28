@@ -11,5 +11,10 @@ namespace EFTuts.Shell.MyApp.Views.Header
         {
             InitializeComponent();
         }
+
+        private void Expander_MouseRightButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

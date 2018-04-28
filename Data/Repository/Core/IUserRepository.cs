@@ -1,11 +1,11 @@
 ﻿using EFTuts.Data.Repository.Domain;
 using System.Collections.Generic;
 
-namespace EFTuts.Data.Repository.Core.Repositories
+namespace EFTuts.Data.Repository.Core
 {
     public interface IUserRepository
     {
-        User GetUser(int UserID = 0);
-        IEnumerable<User> GetUsers();
+        User User(int id = 0);
+        IEnumerable<User> Users();
     }
 }

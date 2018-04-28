@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
 using EFTuts.Data.Repository.Core;
-using EFTuts.Data.Repository.Core.Repositories;
 using EFTuts.Data.Repository.Domain;
 using EFTuts.Data.Repository.UnitOfWork;
 
@@ -8,27 +9,26 @@ namespace EFTuts.Data.Repository.Repositories
 {
     public class CustomerRepository : Repository<Customer>, ICustomerRepository
     {
-        public DataContext DataContext
-        {
-            get
-            {
-                return Context as DataContext;
-            }
-        }
-        public CustomerRepository(DataContext context)
-            :base(context)
+        public DataContext DataContext {  get { return Context as DataContext; } }
+
+        public CustomerRepository(DataContext context) : base(context)
         {
             
         }
 
-        Customer ICustomerRepository.GetCustomer(int CustomerID)
+        public Customer CustomerById(int id = 0)
         {
-            return DataContext.Customers.Find(CustomerID);
+            return DataContext.Customers.Find(id);
         }
 
-        IEnumerable<Customer> ICustomerRepository.GetCustomers()
+        public IEnumerable<Customer> CustomersList()
         {
-            return null;
+            return DataContext.Customers.ToList();
+        }
+
+        public ObservableCollection<Customer> CustomersObser()
+        {
+            return DataContext.Customers.Local;
         }
     }
 }

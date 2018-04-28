@@ -12,17 +12,17 @@ namespace EFTuts.Shell.MyApp.Views
         public MainWindow(IRegionManager regionManager)
         {
             InitializeComponent();
-            // show splash scewwn first
+            // show splash screen first
             //new SplashWindow().ShowDialog();
 
-            // register top menu to header region
-            regionManager.RegisterViewWithRegion("headerRegion", typeof(Header.TopMenu));
+            // register top menu
+            regionManager.RegisterViewWithRegion("TopMenuRegion", typeof(Header.TopMenu));
 
-            // register dockmanger to content region
-            regionManager.RegisterViewWithRegion("contentRegion", typeof(Content.DockManager));
+            // register toolbar
+            regionManager.RegisterViewWithRegion("ToolbarRegion", typeof(Header.Toolbar));
 
-            // register statusbar to footer region
-            regionManager.RegisterViewWithRegion("footerRegion", typeof(Footer.Footer));
+            // register footer and statusbar
+            regionManager.RegisterViewWithRegion("FooterRegion", typeof(Footer.Footer));
         }
     }
 }

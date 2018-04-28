@@ -1,4 +1,4 @@
-using EFTuts.Data.Repository.Core.Repositories;
+using EFTuts.Data.Repository.Core;
 using System;
 
 namespace EFTuts.Data.Repository.UnitOfWork

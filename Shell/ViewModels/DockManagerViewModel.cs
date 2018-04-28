@@ -1,6 +1,6 @@
 ﻿using Prism.Mvvm;
 
-namespace EFTuts.Shell.MyApp
+namespace EFTuts.Shell.MyApp.ViewModels
 {
     public class DockManagerViewModel : BindableBase
     {

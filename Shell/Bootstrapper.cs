@@ -3,6 +3,7 @@ using Prism.Modularity;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
 using EFTuts.Shell.MyApp.Views;
+using Customers;
 
 namespace EFTuts.Shell.MyApp
 {
@@ -20,8 +21,9 @@ namespace EFTuts.Shell.MyApp
 
         protected override void ConfigureModuleCatalog()
         {
-            var moduleCatalog = (ModuleCatalog)ModuleCatalog;
-            //moduleCatalog.AddModule(typeof(YOUR_MODULE));
+            ModuleCatalog moduleCatalog = new ModuleCatalog();
+
+            //moduleCatalog.AddModule(typeof(CustomersModule));
         }
     }
 }

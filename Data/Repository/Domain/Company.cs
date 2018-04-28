@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EFTuts.Data.Repository.Domain
+﻿namespace EFTuts.Data.Repository.Domain
 {
     public class Company
     {
+        public int id { get; set; }
     }
 }

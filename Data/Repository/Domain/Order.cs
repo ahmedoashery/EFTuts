@@ -2,5 +2,6 @@
 {
     public class Order
     {
+        public int id { get; set; }
     }
 }

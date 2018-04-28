@@ -1,5 +1,6 @@
-﻿using EFTuts.Data.Repository.Core;
-using EFTuts.Data.Repository.Core.Repositories;
+﻿using System.Collections.Generic;
+using System.Linq;
+using EFTuts.Data.Repository.Core;
 using EFTuts.Data.Repository.Domain;
 using EFTuts.Data.Repository.UnitOfWork;
 
@@ -7,11 +8,28 @@ namespace EFTuts.Data.Repository.Repositories
 {
     public class UserRepository : Repository<User>, IUserRepository
     {
-        private DataContext _context;
-
-        public UserRepository(DataContext context)
+        
+        public UserRepository(DataContext context) : base(context)
         {
-            _context = context;
+
+        }
+
+        public DataContext DataContext
+        {
+            get
+            {
+                return Context as DataContext;
+            }
+        }
+
+        public User User(int id = 0)
+        {
+            return DataContext.Users.Find(id);
+        }
+
+        public IEnumerable<User> Users()
+        {
+            return DataContext.Users.ToList();
         }
     }
 }

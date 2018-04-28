@@ -6,10 +6,7 @@
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
     <Grid>
         <!-- Top menu -->
-        <Menu IsMainMenu="True" 
-              Background="#FFD6DBE9"
-              Padding="10,5,10,5">
-            
+        <Menu IsMainMenu="True" Background="#FFD6DBE9" Padding="0,0,0,10">
             <MenuItem Header="_File">
                 <MenuItem Header="Save">
                     <MenuItem.Icon>
@@ -43,11 +40,11 @@
                     <MenuItem Header="Ice Cream" />
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Edit">
+            <MenuItem Header="_Edit" Template="{StaticResource CustomerMenuItemTemplate}">
                 <MenuItem Header="_Cut"
                           Command="Cut">
                     <MenuItem.Icon>
-                        <materialDesign:PackIcon Kind="ContentCut" />
+                        <materialDesign:PackIcon Kind="ContentCut" Width="12" />
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="_Copy"
@@ -63,7 +60,7 @@
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Services">
+            <MenuItem Header="_Services" Template="{StaticResource CustomerMenuItemTemplate}">
                 <MenuItem Header="Save">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="ContentSave" />
@@ -96,7 +93,7 @@
                     <MenuItem Header="Ice Cream" />
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Window">
+            <MenuItem Header="_Window" Template="{StaticResource CustomerMenuItemTemplate}">
                 <MenuItem Header="Save">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="ContentSave" />
@@ -129,7 +126,7 @@
                     <MenuItem Header="Ice Cream" />
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Tools">
+            <MenuItem Header="_Tools" Template="{StaticResource CustomerMenuItemTemplate}">
                 <MenuItem Header="Save">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="ContentSave" />
@@ -162,7 +159,7 @@
                     <MenuItem Header="Ice Cream" />
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Settings">
+            <MenuItem Header="_Settings" Template="{StaticResource CustomerMenuItemTemplate}">
                 <MenuItem Header="Save">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="ContentSave" />
@@ -195,7 +192,7 @@
                     <MenuItem Header="Ice Cream" />
                 </MenuItem>
             </MenuItem>
-            <MenuItem Header="_Help">
+            <MenuItem Header="_Help" Template="{StaticResource CustomerMenuItemTemplate}">
                 <MenuItem Header="Save">
                     <MenuItem.Icon>
                         <materialDesign:PackIcon Kind="ContentSave" />
@@ -228,7 +225,6 @@
                     <MenuItem Header="Ice Cream" />
                 </MenuItem>
             </MenuItem>
-            
         </Menu>
     </Grid>
 </UserControl>

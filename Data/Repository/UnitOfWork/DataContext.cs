@@ -6,7 +6,7 @@ namespace EFTuts.Data.Repository.UnitOfWork
     public class DataContext : DbContext
     {
         public DataContext()
-            : base("data source=.; initial catalog=EFTutsCodeFirst; integrated security=SSPI")
+            : base("Data Source = .\\; Initial Catalog = EFTutsDBCodeFirst; Persist Security Info=True;User ID = sa; Password=sapa;MultipleActiveResultSets=True")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }

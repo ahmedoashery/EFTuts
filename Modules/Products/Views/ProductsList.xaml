@@ -1,7 +1,6 @@
-﻿<UserControl x:Class="Customers.Views.ViewA"
+﻿<UserControl x:Class="EFTuts.Modules.Products.Views.ProductsList"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Customers.Views"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d" 
@@ -12,5 +11,11 @@
         <TextBlock Text="{Binding Message}"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center" />
+        
+        <TextBlock Text="Products" 
+                   FontSize="100" 
+                   Foreground="White"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center" />
     </Grid>
 </UserControl>

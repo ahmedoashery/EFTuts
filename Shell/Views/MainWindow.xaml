@@ -21,7 +21,7 @@
             </BeginStoryboard>
         </EventTrigger>
     </Window.Triggers>
-
+    
     <!-- Window icon -->
     <mc:ModernWindow.CaptionIcon>
         <Path UseLayoutRounding="True" SnapsToDevicePixels="True" Stretch="UniformToFill"
@@ -33,30 +33,32 @@
         <!-- grid layout -->
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
-
-        <!-- Header Region -->
+        
+        <!-- Topmenu Region -->
         <ContentControl Grid.Row="0" 
-                        prism:RegionManager.RegionName="headerRegion" 
-                        Background="Transparent" />
+                        prism:RegionManager.RegionName="TopMenuRegion" />
+
+        <!-- Toolbar Region -->
+        <ContentControl Grid.Row="1" 
+                        prism:RegionManager.RegionName="ToolbarRegion" />
 
         <!-- Content Region -->
-        <ContentControl Grid.Row="1"
-                        prism:RegionManager.RegionName="contentRegion" />
-        
-        <!-- Footer Region -->
         <ContentControl Grid.Row="2"
-                                prism:RegionManager.RegionName="footerRegion"
-                                VerticalAlignment="Center">
-        </ContentControl>
-        
+                        prism:RegionManager.RegionName="ContentRegion" />
+
+        <!-- Footer Region -->
+        <ContentControl Grid.Row="3"
+                        prism:RegionManager.RegionName="FooterRegion"/> 
+
     </Grid>
 
     <!-- Statusbar -->
     <mc:ModernWindow.StatusBar>
-        <TextBlock VerticalAlignment="Center">Ready</TextBlock>
+        <ContentControl prism:RegionManager.RegionName="StatusbarRegion" />
     </mc:ModernWindow.StatusBar>
     
 </mc:ModernWindow>

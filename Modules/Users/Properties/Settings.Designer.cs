@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EFTuts.Modules.Users.Properties {
+namespace EFTuts.Moduls.Users.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
