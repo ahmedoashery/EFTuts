@@ -239,6 +239,10 @@
       <Project>{4FCE2371-F120-4F5D-9EAA-FDB1928F142A}</Project>
       <Name>Customers</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Modules\Users\Users.csproj">
+      <Project>{A2CE5CED-FE1A-4813-9D64-31334275A2F5}</Project>
+      <Name>Users</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

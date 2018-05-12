@@ -39,16 +39,22 @@
         </Grid.RowDefinitions>
         
         <!-- Topmenu Region -->
-        <ContentControl Grid.Row="0" 
+        <!--<ContentControl Grid.Row="0" 
                         prism:RegionManager.RegionName="TopMenuRegion" />
 
-        <!-- Toolbar Region -->
+        --><!-- Toolbar Region --><!--
         <ContentControl Grid.Row="1" 
-                        prism:RegionManager.RegionName="ToolbarRegion" />
+                        prism:RegionManager.RegionName="ToolbarRegion" />-->
 
         <!-- Content Region -->
-        <ContentControl Grid.Row="2"
-                        prism:RegionManager.RegionName="ContentRegion" />
+        <!--<ContentControl Grid.Row="2"
+                        prism:RegionManager.RegionName="ContentRegion" />-->
+        <Button Command="{Binding ExecuteDelegateCommand}" 
+                Content="SignIn" Margin="50" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Center" />
+
+        <TextBlock Text="{Binding UpdateText}" HorizontalAlignment="Stretch" Foreground="White" FontSize="70" Margin="100"/>
 
         <!-- Footer Region -->
         <ContentControl Grid.Row="3"

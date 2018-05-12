@@ -1,8 +1,8 @@
-﻿using Users.Views;
-using Prism.Modularity;
+﻿using Prism.Modularity;
 using Prism.Regions;
 using Microsoft.Practices.Unity;
 using Prism.Unity;
+using EFTuts.Modules.Users.Views;
 
 namespace EFTuts.Modules.Users
 {
@@ -19,7 +19,7 @@ namespace EFTuts.Modules.Users
 
         public void Initialize()
         {
-            _container.RegisterTypeForNavigation<ViewA>();
+            _container.RegisterTypeForNavigation<Login>();
         }
     }
 }
